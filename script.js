@@ -27,7 +27,7 @@ let alphaNums = ['A', 'B', 'C', 'D', 'E', 'F', 'G',
 // This loop generates a random string of 7 characters using alphaNums
 // Further this string is displayed as a CAPTCHA
 let emptyArr = [];
-for (let i = 1; i <= 7; i++) {
+for (let i = 1; i <= 10; i++) {
     emptyArr.push(alphaNums[Math.floor(Math.random() * alphaNums.length)]);
 }
 var c = emptyArr.join('');
